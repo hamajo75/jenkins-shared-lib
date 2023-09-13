@@ -3,6 +3,7 @@ def info(message) {
 }
 
 def warning(message) {
+    sh "hello"
     println "WARNING: ${message}"
 }
 
