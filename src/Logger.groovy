@@ -6,6 +6,7 @@ class Logger {
   }
 
   def info(String message) {
+    echo " echo: ${message}"
     println name + " INFO: ${message}"
   }
 
