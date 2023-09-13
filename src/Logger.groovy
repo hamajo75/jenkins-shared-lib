@@ -1,7 +1,7 @@
 class Logger {
   String name
 
-  def construct(name) {
+  def Logger(name) {
     this.name = name
   }
 
