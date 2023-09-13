@@ -1,9 +1,15 @@
 class Logger {
-  static void info(String message) {
-    println "INFO: ${message}"
+  String name
+
+  def construct(name) {
+    this.name = name
   }
 
-  static void warning(String message) {
-    println "WARNING: ${message}"
+  def info(String message) {
+    println name + " INFO: ${message}"
+  }
+
+  def warning(String message) {
+    println name + " WARNING: ${message}"
   }
 }
