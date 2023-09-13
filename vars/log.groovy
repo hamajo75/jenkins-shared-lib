@@ -1,7 +1,12 @@
 def info(message) {
-    echo "INFO: ${message}"
+    Logger.info(message)
 }
 
 def warning(message) {
-    echo "WARNING: ${message}"
+    Logger.warning(message)
 }
+
+// def call(message) {
+//   def logger = new Logger(message)
+//   return logger
+// }
