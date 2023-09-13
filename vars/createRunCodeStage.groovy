@@ -1,5 +1,5 @@
 def call(message) {
-  stage('RunCode') {
+  return stage('RunCode') {
       steps {
           script{
               log.info(message)
