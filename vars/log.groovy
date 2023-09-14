@@ -7,7 +7,6 @@ def warning(message) {
     println "WARNING: ${message}"
 }
 
-def call(message) {
-  def logger = new Logger(message)
-  return logger
+def call() {
+  echo "call directly"
 }
