@@ -1,9 +1,7 @@
 def call(message) {
-  return stage('RunCode') {
-      steps {
-          script{
-              log.info(message)
-          }
-      }
+  stage('Example') {
+    steps {
+        echo 'Hello World'
+    }
   }
 }
