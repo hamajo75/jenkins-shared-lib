@@ -3,4 +3,5 @@ This repository contains the shared library for the Jenkins pipelines.
 
 # Documentation
 
-(See also: [log](vars/log.txt))
+- [log](vars/log.txt)
+- [meGit](vars/meGit.txt)
