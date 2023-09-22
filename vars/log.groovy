@@ -8,5 +8,5 @@ def warning(message) {
 }
 
 def call() {
-  echo "call directly"
+    echo "call directly"
 }
